@@ -25,8 +25,10 @@
     "favicon": "",
     "noImageResize": "",
     "versionFirst": "4.2.3",
-    "uniqCompNum": 10,
-    "versionPublish": "4.2.3"
+    "uniqCompNum": 15,
+    "versionPublish": "4.2.3",
+    "path": "@PROJECT_PATH@",
+    "screenshot": "screenshot.png"
   },
   "pages": {
     "index.html": {
@@ -70,7 +72,7 @@
             },
             "overlay": true,
             "overlayColor": "#000",
-            "overlayOpacity": "0.2"
+            "overlayOpacity": "0.3"
           },
           "title": "KEY STORE",
           "text": "Den oberoende marknadsplatsen <br>för retail och servicehandeln.<br>Börja kommunicera direkt med dina butiker.<br>",
@@ -80,41 +82,6 @@
           ],
           "_name": "header5",
           "_anchor": "header5-5"
-        },
-        {
-          "_inherit": "msg-box8",
-          "_styles": {
-            ".mbr-section-title, p": {
-              "color": "#000"
-            }
-          },
-          "_params": {
-            "showTitle": true,
-            "showText": true,
-            "showButton": true,
-            "paddingTop": "3",
-            "paddingBottom": "3",
-            "bgImageRadio": false,
-            "bgImage": "@THEME_PATH@/components/_images/desert.jpg",
-            "parallax": true,
-            "bgColorRadio": true,
-            "bgColor": "#cccccc",
-            "bgVideoRadio": false,
-            "bgVideo": {
-              "url": "https://www.youtube.com/watch?v=uNCr7NdOJgw"
-            },
-            "overlay": false,
-            "overlayColor": "#222",
-            "overlayOpacity": 0.5
-          },
-          "title": "KEYSTORE",
-          "text": "<p>Vi tror att leverantör och butik har ett behov av att jobba tajtare. Därför skapade vi KeyStore.<span style=\"font-size: 1.07rem;\">&nbsp;</span><span style=\"font-size: 1.07rem;\">Skicka orderförslag och nyhetsinfrmation direkt till din kontaktperson i butik helt digitalt. Ingen administrtaion av systemet krävs. Säljaren registerar allt via sin egen app.</span></p>",
-          "_tags": [
-            "Theme"
-          ],
-          "button": "<a data-app-btn=\"true\" class=\"btn btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LADD NED</a>",
-          "_name": "msg-box3",
-          "_anchor": "msg-box3-6"
         },
         {
           "_inherit": "features3",
@@ -238,6 +205,95 @@
         },
         {
           "_params": {
+            "autoplay": true,
+            "fullScreen": true,
+            "paddingTop": 3,
+            "paddingBottom": 3,
+            "showBullets": true,
+            "bgColor": "#fff",
+            "timeout": 5,
+            "slides": [
+              {
+                "image": "@PROJECT_PATH@/assets/images/desktop22-1024x1024.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "ARBETA MED LÖNSAMHET I BUTIK",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TESTA KEYSTORE</a> ",
+                "overlayOpacity": "0"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/desktop22-1024x1024.jpg",
+                "active": true,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "VISA PROFFSIGA ORDERFÖRSLAG",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TESTA KEYSTORE</a> ",
+                "overlayOpacity": "0"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/desktop22-1024x1024.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "ORDERFÖRSLAG UTAN PAPPER",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TESTA KEYSTORE</a> ",
+                "overlayOpacity": "0"
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/desktop22-1024x1024.jpg",
+                "active": false,
+                "showButtons": true,
+                "showText": true,
+                "showTitle": true,
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=uNCr7NdOJgw",
+                "title": "SKAPA EN MARGINAL",
+                "overlay": true,
+                "contentAlign": "center",
+                "text": "",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn btn-lg btn-success\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">TESTA KEYSTORE</a> ",
+                "overlayOpacity": "0"
+              }
+            ]
+          },
+          "articleLayout": false,
+          "_tags": [
+            "Theme"
+          ],
+          "_name": "slider3",
+          "_anchor": "slider3-e",
+          "_styles": {
+            "H2": {
+              "color": "#000000"
+            },
+            "P": {
+              "font-family": "'Roboto Condensed', sans-serif",
+              "googleLink": "https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700",
+              "color": "#000000"
+            }
+          }
+        },
+        {
+          "_params": {
             "showTitle": true,
             "showSubTitle": false,
             "labelsColor": "#232323",
@@ -247,7 +303,7 @@
             "bgImage": "@THEME_PATH@/components/_images/jumbotron.jpg",
             "parallax": true,
             "bgColorRadio": true,
-            "bgColor": "#cccccc",
+            "bgColor": "#ffffff",
             "overlay": false,
             "overlayColor": "#222",
             "overlayOpacity": 0.5
@@ -302,8 +358,8 @@
             "sticky": true,
             "collapsed": true,
             "transparent": false,
-            "bgColor": "#282828",
-            "fontSize": 0.75,
+            "bgColor": "#b8312f",
+            "fontSize": "0.85",
             "fontName": {},
             "fontColor": "#ffffff",
             "fontHoverColor": "@primaryColor"
@@ -329,22 +385,22 @@
               "color": "#ffffff"
             },
             ".link": {
-              "font-size": "0.75rem"
+              "font-size": "0.85rem"
             },
             ".dropdown-item, .nav-dropdown-sm .link": {
-              "font-size": "0.812rem"
+              "font-size": "0.921rem"
             },
             ".link:hover, .dropdown-item:hover, .link:focus, .dropdown-item:focus": {
               "color": "@primaryColor"
             },
             ".link[aria-expanded=\"true\"], .dropdown-menu": {
-              "background": "#0e0e0e"
+              "background": "#8f2625"
             },
             ".nav-dropdown-sm .link:focus, .nav-dropdown-sm .link:hover, .nav-dropdown-sm .dropdown-item:focus, .nav-dropdown-sm .dropdown-item:hover": {
-              "background": "#202020!important"
+              "background": "#ac2e2c!important"
             },
             ".navbar, .nav-dropdown-sm, .nav-dropdown-sm .link[aria-expanded=\"true\"], .nav-dropdown-sm .dropdown-menu": {
-              "background": "#282828"
+              "background": "#b8312f"
             },
             ".bg-color.transparent .link": {
               "color": "#ffffff",
@@ -446,7 +502,7 @@
               "family": "et-line"
             }
           },
-          "text5": "<li>KeySale (CRM)</li><li><a class=\"text-primary\" href=\"#\">K</a>eyPoint (Distribution)</li><li><a class=\"text-primary\" href=\"#\">K</a>eyReport (Formbuilder)</li><li><a class=\"text-primary\" href=\"#\">K</a>eyWatch (Image collection)</li><li>KeySlider (Presentation)</li><li>KeyStore (Marknadsportal)</li>",
+          "text5": "<li>KeySale (CRM)</li><li><a class=\"text-primary\" href=\"#\">K</a>eyPoint (Distribution)</li><li><a class=\"text-primary\" href=\"#\">K</a>eyReport (Formbuilder)</li><li><a class=\"text-primary\" href=\"#\">K</a>eyWatch (Bild insamling)</li><li>KeySlider (Presentation)</li><li>KeyStore (Marknadsportal)</li>",
           "buttons": "<a data-app-btn=\"true\" type=\"submit\" class=\"btn btn-sm btn-info\">Contact us</a>",
           "_tags": [
             "Theme"
